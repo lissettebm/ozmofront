@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { requestUsers } from "../api/requests";
 
 const List = () => {
@@ -45,7 +46,6 @@ const List = () => {
                 <td>{user.lastName}</td>
                 <td>{user.email}</td>
                 <td>
-                  {/* TODO: ir al detalle */}
                   <button>Ver detalle</button>
                 </td>
               </tr>
