@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const baseURL = "https://dummyapi.io/data/api";
-export const APP_ID = "61083af4388709d3392032f2";
+const baseURL = "https://dummyapi.io/data/v1/";
+export const APP_ID = "612415cdea19592437dbf44f";
 
 const API = axios.create({
   baseURL,
